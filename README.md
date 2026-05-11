@@ -30,16 +30,21 @@ I divided the whole program into 6 steps/functions, which makes it clean and eas
 5. check_integrity() – This is the main checking function. It compares the current hash values of files with the saved ones and reports:
 
 #[ok] – file is unchanged
+
 #[modified] – file has been changed
+
 #[new file] – a file was added
+
 #[deleted] – a file was removed
 
 
 6. main() – This is where the user interacts with the program. It shows a simple menu where you either scan and save (option 1) or check integrity (option 2).
 
 Conclusion:
-So, to wrap it all up, this project taught me how we can use simple Python code to do something that is actually used in real-world cybersecurity.
-The main idea was straightforward – every file has a unique hash value, and if that value changes, it means something inside the file has changed. By saving the original hash records and comparing them later, we can easily detect whether any file was modified, deleted, or newly added without our permission.
-
+@ So, to wrap it all up, this project taught me how we can use simple Python code to do something that is actually used in real-world cybersecurity.
+@ The main idea was straightforward – every file has a unique hash value, and if that value changes, it means something inside the file has changed. By saving the original hash records and comparing them later, we can easily detect whether any file was modified, deleted, or newly added without our permission.
+@ What I really liked about this project is that it is divided into small functions, so each part has its own job. This makes the code easy to read and also easy to fix if something goes wrong. Using libraries like hashlib, os, and json made things much simpler because I did not have to build everything from scratch.
+@ If I think about improvements for the future, I would maybe add an email alert system so that whenever a change is detected, the user gets notified automatically. I could also add a scheduled task so the program runs on its own at a fixed time every day without the user doing anything manually.
+@ Overall, this was a simple but really meaningful project. It helped me understand how hashing works in real life and why file integrity is such an important concept in keeping data safe and secure.
 Output:
 
