@@ -55,4 +55,8 @@ Conclusion:
 @ Overall, this was a simple but really meaningful project. It helped me understand how hashing works in real life and why file integrity is such an important concept in keeping data safe and secure.
 
 Output:
+1.
+<img width="770" height="406" alt="Image" src="https://github.com/user-attachments/assets/483522f3-a52d-40e0-adf2-6ec0730b41b7" />
+2.
+<img width="774" height="670" alt="Image" src="https://github.com/user-attachments/assets/62826344-ee7d-4f7b-b656-7aa0ff30bd23" />
 
